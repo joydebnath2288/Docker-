@@ -1,0 +1,11 @@
+target/
+apache-tomcat-10.1.60/
+.git
+.gitignore
+.idea
+*.iml
+.vscode
+.settings
+.classpath
+.project
+*.log

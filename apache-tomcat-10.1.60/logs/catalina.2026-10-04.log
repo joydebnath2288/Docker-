@@ -1,0 +1,244 @@
+04-Oct-2026 13:50:07.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.60
+04-Oct-2026 13:50:07.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 9 2026 22:35:59 UTC
+04-Oct-2026 13:50:07.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.60.0
+04-Oct-2026 13:50:07.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Oct-2026 13:50:07.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-34-generic
+04-Oct-2026 13:50:07.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Oct-2026 13:50:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-25-openjdk-amd64
+04-Oct-2026 13:50:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-1-26.04.4-Ubuntu
+04-Oct-2026 13:50:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+04-Oct-2026 13:50:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/conf/logging.properties
+04-Oct-2026 13:50:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2026 13:50:07.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2026 13:50:07.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:07.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:07.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/temp
+04-Oct-2026 13:50:07.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Oct-2026 13:50:07.950 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:50:07.980 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [993] milliseconds
+04-Oct-2026 13:50:08.033 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2026 13:50:08.033 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.60]
+04-Oct-2026 13:50:08.064 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war]
+04-Oct-2026 13:50:08.345 SEVERE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:679)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:964)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1940)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:795)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:449)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:797)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:885)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/StudentManagement]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.studentmanagement.controller.AddStudentServlet] and [com.studentmanagement.controller.FrontControllerServlet] are both mapped to the url-pattern [/add-student] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:683)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:663)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2693)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2392)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2375)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2251)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2246)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2246)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2246)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1450)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1354)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:1049)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:300)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4558)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 36 more
+04-Oct-2026 13:50:08.368 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war] has finished in [287] ms
+04-Oct-2026 13:50:08.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager]
+04-Oct-2026 13:50:08.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager] has finished in [364] ms
+04-Oct-2026 13:50:08.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager]
+04-Oct-2026 13:50:08.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager] has finished in [15] ms
+04-Oct-2026 13:50:08.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples]
+04-Oct-2026 13:50:09.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples] has finished in [703] ms
+04-Oct-2026 13:50:09.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT]
+04-Oct-2026 13:50:09.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT] has finished in [27] ms
+04-Oct-2026 13:50:09.481 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs]
+04-Oct-2026 13:50:09.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs] has finished in [44] ms
+04-Oct-2026 13:50:09.533 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:50:09.548 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1564] milliseconds
+04-Oct-2026 13:50:55.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.60
+04-Oct-2026 13:50:55.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 9 2026 22:35:59 UTC
+04-Oct-2026 13:50:55.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.60.0
+04-Oct-2026 13:50:55.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Oct-2026 13:50:55.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-34-generic
+04-Oct-2026 13:50:55.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Oct-2026 13:50:55.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-25-openjdk-amd64
+04-Oct-2026 13:50:55.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-1-26.04.4-Ubuntu
+04-Oct-2026 13:50:55.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+04-Oct-2026 13:50:55.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:55.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:55.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/conf/logging.properties
+04-Oct-2026 13:50:55.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2026 13:50:55.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2026 13:50:55.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2026 13:50:55.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Oct-2026 13:50:55.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2026 13:50:55.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:55.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:50:55.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/temp
+04-Oct-2026 13:50:55.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Oct-2026 13:50:55.413 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:50:55.458 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [755] milliseconds
+04-Oct-2026 13:50:55.515 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2026 13:50:55.516 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.60]
+04-Oct-2026 13:50:55.536 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war]
+04-Oct-2026 13:50:56.736 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2026 13:50:56.785 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war] has finished in [1,245] ms
+04-Oct-2026 13:50:56.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager]
+04-Oct-2026 13:50:56.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager] has finished in [36] ms
+04-Oct-2026 13:50:56.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager]
+04-Oct-2026 13:50:56.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager] has finished in [23] ms
+04-Oct-2026 13:50:56.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples]
+04-Oct-2026 13:50:57.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples] has finished in [181] ms
+04-Oct-2026 13:50:57.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT]
+04-Oct-2026 13:50:57.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT] has finished in [20] ms
+04-Oct-2026 13:50:57.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs]
+04-Oct-2026 13:50:57.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs] has finished in [22] ms
+04-Oct-2026 13:50:57.081 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:50:57.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1632] milliseconds
+04-Oct-2026 13:55:00.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.60
+04-Oct-2026 13:55:00.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 9 2026 22:35:59 UTC
+04-Oct-2026 13:55:00.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.60.0
+04-Oct-2026 13:55:00.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Oct-2026 13:55:00.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-34-generic
+04-Oct-2026 13:55:00.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Oct-2026 13:55:00.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-25-openjdk-amd64
+04-Oct-2026 13:55:00.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-1-26.04.4-Ubuntu
+04-Oct-2026 13:55:00.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+04-Oct-2026 13:55:00.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:00.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:00.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/conf/logging.properties
+04-Oct-2026 13:55:00.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2026 13:55:00.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2026 13:55:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2026 13:55:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Oct-2026 13:55:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2026 13:55:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2026 13:55:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+04-Oct-2026 13:55:00.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2026 13:55:00.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2026 13:55:00.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2026 13:55:00.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2026 13:55:00.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:00.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:00.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/temp
+04-Oct-2026 13:55:00.387 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Oct-2026 13:55:01.505 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:55:01.530 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1448] milliseconds
+04-Oct-2026 13:55:01.646 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2026 13:55:01.649 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.60]
+04-Oct-2026 13:55:01.716 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war]
+04-Oct-2026 13:55:02.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2026 13:55:02.757 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war] has finished in [1,038] ms
+04-Oct-2026 13:55:02.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager]
+04-Oct-2026 13:55:02.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager] has finished in [49] ms
+04-Oct-2026 13:55:02.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager]
+04-Oct-2026 13:55:02.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager] has finished in [42] ms
+04-Oct-2026 13:55:02.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples]
+04-Oct-2026 13:55:03.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples] has finished in [308] ms
+04-Oct-2026 13:55:03.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT]
+04-Oct-2026 13:55:03.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT] has finished in [22] ms
+04-Oct-2026 13:55:03.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs]
+04-Oct-2026 13:55:03.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs] has finished in [28] ms
+04-Oct-2026 13:55:03.220 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:55:03.236 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1697] milliseconds
+04-Oct-2026 13:55:27.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.60
+04-Oct-2026 13:55:27.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 9 2026 22:35:59 UTC
+04-Oct-2026 13:55:27.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.60.0
+04-Oct-2026 13:55:27.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Oct-2026 13:55:27.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-34-generic
+04-Oct-2026 13:55:27.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Oct-2026 13:55:27.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-25-openjdk-amd64
+04-Oct-2026 13:55:27.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-1-26.04.4-Ubuntu
+04-Oct-2026 13:55:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+04-Oct-2026 13:55:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:27.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:27.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/conf/logging.properties
+04-Oct-2026 13:55:27.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2026 13:55:27.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2026 13:55:27.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2026 13:55:27.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+04-Oct-2026 13:55:27.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2026 13:55:27.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2026 13:55:27.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+04-Oct-2026 13:55:27.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2026 13:55:27.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2026 13:55:27.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2026 13:55:27.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2026 13:55:27.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:27.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60
+04-Oct-2026 13:55:27.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/temp
+04-Oct-2026 13:55:27.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+04-Oct-2026 13:55:28.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:55:28.320 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [704] milliseconds
+04-Oct-2026 13:55:28.351 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2026 13:55:28.351 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.60]
+04-Oct-2026 13:55:28.375 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war]
+04-Oct-2026 13:55:29.197 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2026 13:55:29.234 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/StudentManagement.war] has finished in [854] ms
+04-Oct-2026 13:55:29.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager]
+04-Oct-2026 13:55:29.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/manager] has finished in [41] ms
+04-Oct-2026 13:55:29.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager]
+04-Oct-2026 13:55:29.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/host-manager] has finished in [52] ms
+04-Oct-2026 13:55:29.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples]
+04-Oct-2026 13:55:29.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/examples] has finished in [217] ms
+04-Oct-2026 13:55:29.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT]
+04-Oct-2026 13:55:29.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/ROOT] has finished in [32] ms
+04-Oct-2026 13:55:29.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs]
+04-Oct-2026 13:55:29.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/joy-debnath/Desktop/PROJECT/apache-tomcat-10.1.60/webapps/docs] has finished in [19] ms
+04-Oct-2026 13:55:29.608 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Oct-2026 13:55:29.629 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1307] milliseconds

@@ -1,0 +1,47 @@
+services:
+  # ----------------------------------------------------------------------------
+  # MySQL Database Service
+  # ----------------------------------------------------------------------------
+  db:
+    image: mysql:8.0
+    container_name: student_management_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Joydeb123#
+      MYSQL_DATABASE: student_management
+    # Host port 3307 maps to container port 3306 to prevent conflicts with local MySQL
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      # Automatically run database.sql when the container initializes for the first time
+      - ./database.sql:/docker-entrypoint-initdb.d/01_database.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pJoydeb123#"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # ----------------------------------------------------------------------------
+  # Tomcat 10.1 Application Service
+  # ----------------------------------------------------------------------------
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: student_management_app
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    # Host port 8085 maps to container Tomcat port 8080 (avoids conflict with local Tomcat on 8080)
+    ports:
+      - "8085:8080"
+    environment:
+      # Connect to the db service using Docker's internal DNS name "db"
+      DB_URL: "jdbc:mysql://db:3306/student_management?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+      DB_USER: "root"
+      DB_PASSWORD: "Joydeb123#"
+
+volumes:
+  mysql_data:
